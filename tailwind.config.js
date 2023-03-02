@@ -23,7 +23,6 @@ module.exports = {
     extend: {
       colors,
       fontFamily,
-      letterSpacing
     },
   },
   plugins: [],
