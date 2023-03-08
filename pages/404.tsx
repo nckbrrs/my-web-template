@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from 'next/router';
 import Head from "next/head";
 
@@ -21,7 +21,7 @@ const NotFound: React.FC = () => {
     return (
         <>
         <Head>
-            <title>TITLE / 404</title>
+            <title>Nick Barrs / 404</title>
         </Head>
         <div>
             <h1>Oops!</h1>

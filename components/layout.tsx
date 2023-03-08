@@ -6,17 +6,15 @@ import "twin.macro";
 
 const Layout: React.FC<{children: ReactNode}> = ({children}) => {
     return (
-        <Col tw="w-screen h-screen bg-background items-center">
-            <Col tw="w-full h-full max-w-screen-2xl justify-between px-24">
-                <Row tw="py-24">
-                    <Header/>
-                </Row>
-                {children}
-                <Row tw="py-24">
-                    <Footer/>
-                </Row>
+        <Row tw="min-h-screen justify-center">
+            <Col tw="w-screen max-w-[2000px] justify-between flex-nowrap px-3 md:px-8 lg:px-12">
+                <Header/>
+                <Col tw="h-full justify-start flex-nowrap">
+                    {children}
+                </Col>
+                <Footer/>
             </Col>
-        </Col>
+        </Row>
     )
     
 }

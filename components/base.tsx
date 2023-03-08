@@ -23,19 +23,3 @@ export const RowCentered = styled(Row)(() => [
         items-center
     `
 ])
-
-export const ColCentered = styled(Col)(() => [
-    tw`
-        justify-center
-        items-center
-    `
-])
-
-export const TextPrimary = styled.p(() => [
-    tw`
-        font-primary
-        text-base
-        font-normal
-        text-primary
-    `
-])
