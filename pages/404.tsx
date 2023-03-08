@@ -21,7 +21,7 @@ const NotFound: React.FC = () => {
     return (
         <>
         <Head>
-            <title>Nick Barrs / 404</title>
+            <title>TITLE/ 404</title>
         </Head>
         <div>
             <h1>Oops!</h1>
