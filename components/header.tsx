@@ -3,12 +3,10 @@ import 'twin.macro';
 
 const Header: React.FC = () => {
     return (
-        <Col tw="pt-10 pb-4 sm:py-20">
-            <Row tw="justify-between items-center">
-                <p>header left element</p>
-                <p>header right element</p>
-            </Row>
-        </Col>
+        <Row tw="justify-between items-center pt-10 pb-4 sm:py-20">
+            <p>header left element</p>
+            <p>header right element</p>
+        </Row>
     )
 }
 

@@ -4,10 +4,6 @@ import { GlobalStyles as BaseStyles } from 'twin.macro'
 // This method of specifying global styles was recommended/provided by
 // the docs of twin.macro, the library I use for combining tailwind with styled components
 const CustomStyles = createGlobalStyle`
-  :root {
-
-  }
-
   @media (prefers-color-scheme: dark) {
     html {
       color-scheme: dark;
